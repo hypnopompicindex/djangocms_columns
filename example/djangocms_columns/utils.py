@@ -11,7 +11,7 @@ TEMPLATES = localdata.TEMPLATES
 
 def autodiscover_templates():
     '''
-    Autodiscovers cmsplugin_columns templates the way
+    Autodiscovers djangocms_columns templates the way
     'django.template.loaders.filesystem.Loader' and
     'django.template.loaders.app_directories.Loader' work.
     '''

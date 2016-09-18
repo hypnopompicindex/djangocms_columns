@@ -1,0 +1,10 @@
+
+<p>{{ column.title }}</p>
+<div class="row">
+	{% for column in columns %}
+		<div class="col-sm-3">
+			<p>{{ column.title }}</p>
+			<p>{{ column.alt|safe }}</p>			
+		</div>
+	{% endfor %}
+</div>
